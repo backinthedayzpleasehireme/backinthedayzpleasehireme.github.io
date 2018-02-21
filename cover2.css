@@ -1,0 +1,151 @@
+/*
+ * Globals
+ */
+
+/* Links */
+
+
+/*
+ * Base structure
+ */
+
+
+body {
+  color: #fff;
+
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+ 
+}
+
+.masthead {
+
+  z-index: 1;
+}
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0  !important;
+  padding-left: 0  !important;
+  font-size: 16px  !important;
+  font-weight: bold  !important;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75)  !important;
+  border-bottom: 2px solid transparent !important;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent  !important;
+  border-bottom-color: #a9a9a9  !important;
+  border-bottom-color: rgba(255,255,255,.25)  !important;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff !important;
+  border-bottom-color: #fff !important;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+
+   /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+   .masthead {
+    position: fixed;
+    top: 0;
+    width:100%;
+  }
+}
+
+.inner {
+    padding: 0px 30px !important;
+
+  }
+
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 900px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    margin-right: auto;
+    width:700px;
+  }
+}
+
+
+@media (min-width: 1350px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    margin-right: auto;
+    width:1100px;
+  }
+}
+
+.hide-nav {
+    position: fixed;
+    top: 30px;
+    transition: top 0.1s linear;
+}
+
+.nav-up {
+    top: -100px;
+}
+
+
+/*
+@media (max-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    padding-top:50px;
+  }
+}*/

@@ -1,0 +1,202 @@
+body {
+  font-family: 'Montserrat', sans-serif; 
+  background-color: #0c0c0d; 
+}
+
+
+.cover-heading {
+
+font-size: 350%;
+font-weight:bold !important;
+margin-bottom: 0;
+}
+
+
+/*@media (max-width: 700px) {
+  .cover-heading {
+    font-size: 300%;
+  }
+} */
+
+h2 {
+
+	margin-top:0;
+}
+
+.btn {
+	position:relative;
+	top: 30px;
+	text-transform: uppercase;
+	border-radius: 25px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.1em;
+	font-weight: 800;
+
+	transition: all .2s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+.cover-container {
+
+	vertical-align: middle;
+}
+
+@media (max-width: 992px) {
+
+	.navbar {
+		visibility: hidden;
+	}
+
+	.hide-nav {
+		transform: translateY(-100px);
+	}
+}
+
+@media (max-width: 768px) {
+  .cover-heading {
+    position:relative;
+	top: 0px;
+  }
+
+  h1 {
+
+  	font-size:200%;
+  	line-height: 1 !important;
+  }
+
+  h2 {
+  	font-size: 200%;
+  }
+
+  h4 {
+  	font-size:120%;
+  }
+
+  .mybutton {
+  	margin-bottom : 15px;
+  }
+
+  body {
+  	line-height:1 !important;
+  	text-align: center;
+  }
+
+  p {
+
+  	text-align:justify;
+  }
+
+
+  .masthead {
+  	width: 100%;
+  	margin: 0 auto;
+
+  }
+
+  .subheading {
+
+  	font-size:75%;
+  }
+
+}
+
+
+/*
+@media (max-width: 400px) {
+  .cover-heading {
+    position:relative;
+	top: 0px;
+	font-size: 300%;
+  }
+
+  h1 {
+
+  	font-size:100%;
+  }
+
+  h2 {
+  	font-size: 150%;
+  }
+
+  h4 {
+  	font-size:120%;
+  }
+
+}*/
+
+
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  color:#1d202a;
+  background-color: #fff;
+  border-color: #fff; }
+
+.btn-primary:hover {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #e66436;
+  border: 1px solid #e66436 !important;
+  border-width: 5px !important;
+  cursor: pointer !important;
+}
+
+
+
+
+/*.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}*/
+
+footer  {
+	position:absolute;
+	bottom: 10px;
+	width:100%; 
+	font-size: 75%;
+}
+
+@media (max-height: 600px) {
+  footer {
+    visibility: hidden;
+  }
+}
+
+.masthead-brand {
+	margin-top: 0;
+
+	}
+
+.masthead-nav {
+	padding-left: 0;
+}
+
+
+#mybutton {
+
+	border: 1px solid #fff !important;
+
+}
+
+
+.brand {
+    height:40px;
+    width:77px;
+}
+
+.button-wrapper {
+	text-align:center;
+	position:relative !important;
+	bottom:30px !important;
+}
+
+.button-wrapper2 {
+	text-align:center;
+	position:relative !important;
+	bottom:30px !important;
+}
