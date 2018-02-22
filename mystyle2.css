@@ -104,9 +104,20 @@ h2 {
 }
 
 
-/*
+
 @media (max-width: 400px) {
-  .cover-heading {
+
+  .nava  {
+  font-size:11px !important;
+
+  }
+
+  .masthead-nav > li > a {
+      font-size:11px !important;
+  }
+
+
+  /*.cover-heading {
     position:relative;
 	top: 0px;
 	font-size: 300%;

@@ -38,7 +38,7 @@ body {
 .masthead-nav > li > a {
   padding-right: 0  !important;
   padding-left: 0  !important;
-  font-size: 16px  !important;
+  font-size: 16px;
   font-weight: bold  !important;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75)  !important;
@@ -77,9 +77,11 @@ body {
   }
 }
 
-.inner {
-    padding: 0px 30px !important;
+@media (min-width: 400px) {}
 
+.inner {
+    padding: 0 25px !important;
+    width:100%;
   }
 
 
