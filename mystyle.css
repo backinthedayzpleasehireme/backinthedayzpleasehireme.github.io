@@ -138,7 +138,7 @@ footer  {
 	font-size: 60%;
 }
 
-@media (max-height: 600px) {
+@media (max-height: 525px) {
   footer {
     visibility: hidden;
   }
