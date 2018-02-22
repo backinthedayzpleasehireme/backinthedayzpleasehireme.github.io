@@ -100,7 +100,7 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 415px) {
   .masthead-brand {
     float: left;
   }
